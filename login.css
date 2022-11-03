@@ -1,0 +1,40 @@
+body.login{
+  background-color: black;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: #C9A071;
+}
+.login h1 a {
+  background-image: url('https://lacabrera.eco/wp-content/uploads/2022/06/Logo-la-cabrera.png');
+  background-size: 100%;  
+  width: 310px;
+  height: 90px;
+}
+.login #nav a,
+.login #backtoblog a,
+.login .privacy-policy-page-link{
+  color: white
+}
+.login #nav a:hover,
+.login #backtoblog a:hover{
+  color: #C9A071;
+}
+
+.login form{
+  border-radius: 6px; 
+}
+.login #login_error, .login .message, .login .success{
+  border-left: 4px solid #C9A071;;
+}
+.wp-core-ui .button-primary{
+  background: #C9A071;;
+  border-color: #C9A071;;
+}
+
+.wp-core-ui .button-primary:hover{
+  background-color: #cdb08f;
+  border-color: #cdb08f;;
+}
