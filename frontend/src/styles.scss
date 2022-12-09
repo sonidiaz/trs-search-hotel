@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .wrapper-select{
     max-width: 600px;
     width: 90%;
@@ -22,16 +25,54 @@
         border-width: 0px!important;
         border-color: #a27d54;
         border-radius: 0px;
-        letter-spacing: 2px;
-        font-size: 11px;
+        letter-spacing: 2.5px;
+        font-size: 12px;
         font-family: 'Futura Medium',Helvetica,Arial,Lucida,sans-serif!important;
         background-color: #a27d54;
         display: block;
         padding: 8px;
+        &:hover{
+            opacity: .6;
+        }
         @media screen and (max-width: 768px) {
             width: 100%;
             margin-top: 15px;
             padding: 12px 0;
         }
     }
+    .trs-select-container__value-container{
+        font-family: 'Futura Medium';
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .trs-select-container__control{
+        border:0;
+        font-family: 'Futura Medium';
+        background-color: #202020;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .trs-select-container__single-value{
+        color: white;
+    }
+    .trs-select-container__placeholder{
+        color: white;
+    }
+    .trs-select-container__indicators{
+        color: white;
+    }
+    .trs-select-container__menu{
+        font-family: 'Futura Medium';
+        background-color: #202020;
+        color: white;
+    }
+    .trs-select-container__option{
+        color: white;
+    }
+    .trs-select-container__option:hover,
+    .trs-select-container__option:focus,
+    .trs-select-container__option--is-selected{
+        background-color: #A27D4A;
+    }   
 }
