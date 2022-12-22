@@ -5,7 +5,7 @@ class TRS_SEARCH_HOTEL {
       $output = '';
       ob_start();
       ?>
-        <div id="root"></div>
+        <div id="root"><span class='et-pb-icon trs-icon-color'>&#xe0e1;</span><b>Looking for Thai Room Spa locations...</b></div>
       <?
       $output = ob_get_clean();
       wp_register_script('trsSearchHotel', esc_url(plugins_url('/frontend/dist/bundle.js', dirname(__FILE__) )), true);

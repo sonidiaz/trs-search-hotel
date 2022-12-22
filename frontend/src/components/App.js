@@ -35,7 +35,7 @@ const App = () => {
     return `${BROCHURE_URL}/${currentHotel}.pdf`
   }
   useEffect(() => {
-    if(currentLangUrl.includes( window.location.host+'/es/')) {
+    if(currentLangUrl.includes( window.location.host+'/es/') || currentLangUrl.includes( window.location.host+'/es')) {
       setLang('es');
     }
   }, [])

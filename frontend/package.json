@@ -5,6 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack server",
+    "prod": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -26,13 +27,13 @@
     "react-dom": "^17.0.2",
     "react-select": "^5.5.1",
     "style-loader": "^3.2.1",
-    "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.1.1"
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0",
-    "webpack": "^5.64.1"
+    "webpack": "^5.64.1",
+    "webpack-cli": "^5.0.1"
   }
 }
