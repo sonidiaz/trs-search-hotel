@@ -1,13 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Select, { components } from 'react-select'
+import Select from 'react-select'
 import '../styles.scss'
-const options = [
-  { value: 'blu-madrid-calle-de-moratin-52-2zagilaz', label: 'RADISSON BLU HOTEL (MADRID)' },
-  { value: 'me-ibiza-santa-eulalia-del-rio-avinguda-de-sargamassa-wuodf3mc', label: 'ME IBIZA (IBIZA)' },
-  { value: 'onlyyou-madrid-calle-del-barquillo-21-bbk07kma', label: 'ONLY YOU BOUTIQUE HOTEL (MADRID)' },
-  { value: 'gran-melia-fenix-madrid-calle-de-hermosilla-2-mmnvo6nx', label: 'FÉNIX GRAN MELIÁ (MADRID)' },
-  { value: 'gran-melia-palacio-madrid-cuesta-de-santo-domingo-5-sg2n5iui', label: 'GRAN MELIÁ PALACIO LOS DUQUES (MADRID)' },
-]
 const options_brochure = [
   { value: 'thairoom-villa-le-blanc', label: 'VILLA LE BLANC GRAN MELIÁ (MENORCA)' },
   { value: 'ThaiRoom-Radisson-Blu-Treatments', label: 'RADISSON BLU HOTEL (MADRID)' },
