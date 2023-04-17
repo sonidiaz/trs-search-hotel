@@ -9,12 +9,12 @@ const options = [
   { value: 'gran-melia-palacio-madrid-cuesta-de-santo-domingo-5-sg2n5iui', label: 'GRAN MELIÁ PALACIO LOS DUQUES (MADRID)' },
 ]
 const options_brochure = [
+  { value: 'thairoom-villa-le-blanc', label: 'VILLA LE BLANC GRAN MELIÁ (MENORCA)' },
   { value: 'ThaiRoom-Radisson-Blu-Treatments', label: 'RADISSON BLU HOTEL (MADRID)' },
   { value: 'ThaiRoom-ME-Ibiza-Brochure', label: 'ME IBIZA (IBIZA)' },
   { value: 'thairoom-only-you', label: 'ONLY YOU BOUTIQUE HOTEL (MADRID)' },
   { value: 'ThaiRoom-Fenix-Gran_Melia', label: 'FÉNIX GRAN MELIÁ (MADRID)' },
   { value: 'ThaiRoom-Los_Duques-Treatments', label: 'GRAN MELIÁ PALACIO LOS DUQUES (MADRID)' },
-  { value: 'ThaiRoom-La-Marina', label: 'THAI ROOM SPA LA MARINA (TENERIFE)' },
 ]
 const BROCHURE_URL = 'https://thairoomspa.com/brochure'
 const FRESHA_URL = 'https://www.fresha.com/es/a/thai-room-'
