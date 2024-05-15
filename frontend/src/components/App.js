@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Select from 'react-select'
 import '../styles.scss'
 const options_brochure = [
+  { value: 'thairoom-torre-melina-gran-melia', label: 'TORRE MELINA GRAN MELIÁ (BARCELONA)' },
   { value: 'thaiRoom-Melia-Ibiza', label: 'MELIÁ IBIZA (IBIZA)' },
   { value: 'thairoom-villa-le-blanc', label: 'VILLA LE BLANC GRAN MELIÁ (MENORCA)' },
   { value: 'ThaiRoom-Radisson-Blu-Treatments', label: 'RADISSON BLU HOTEL (MADRID)' },
