@@ -3,7 +3,7 @@
 Plugin Name: Thai Room Spa Search hotel
 Plugin URI:
 Description: Buscador de hoteles para reservar
-Version:     1.0
+Version:     1.4
 Author:      Lacabrera.eco
 Author URI:  https://lacabrera.eco
 License:     GPL2
@@ -20,5 +20,3 @@ function trsSearchInit() {
     $loadSearch->displaySearchHotelBar();
   }
 }
-
-register_activation_hook(__FILE__, 'rewrite_flush');
